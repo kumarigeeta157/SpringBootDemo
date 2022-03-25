@@ -1,9 +1,12 @@
 package com.example.demo.Topic;
 
     public class Topic{
+        public int size;
         private String id;
         private String name;
         private String surname;
+
+        public Topic(){}
 
         public String getId() {
             return id;
